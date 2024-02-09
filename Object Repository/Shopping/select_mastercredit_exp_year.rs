@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_mastercredit_exp_year</name>
+   <tag></tag>
+   <elementGuidId>f72239f9-9426-452a-9657-a4c61397dccc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>eb903987-b551-4d3b-b2c4-bb7250e8e955</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@name='yyyyListbox']</value>
+      <webElementGuid>d1aac2f7-9043-46b9-af3f-95c33f6aa76b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

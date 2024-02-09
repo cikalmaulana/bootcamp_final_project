@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>This test suite, named &quot;Shopping,&quot; is designed to validate the functionality of the search filter on an e-commerce platform. The suite encompasses tests that specifically target the filtering capabilities based on price, manufacturer, and color criteria.</description>
+   <name>Shopping</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>399c031d-7074-4c9a-b9a1-e271630e06d5</testSuiteGuid>
+   <testCaseLink>
+      <guid>1c48574f-3dd6-41fa-8338-3369a8c3e388</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Final Project - Website/Positive Test/Shopping/checkout_test</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d8d52d3d-b0d9-4d2b-9eaa-653815ef3e3d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>417b7302-4b7c-474f-8fc0-77c8d7d22c00</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b4ea9e6e-233e-4ca4-ad47-f13bd1e6d502</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9597a4f2-52c5-474c-af3e-489eae4168c1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>74df7ec5-f27a-43cc-bf90-cc2bf731cd90</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>73df91db-6cf7-4782-a963-1c77e14899a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>64ab408b-5a8e-4f2a-a125-760b7b76db91</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>75dd1924-b7d1-4bab-9f5d-bd3f0c765b23</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9535d632-3ccb-4987-b94b-8fd55ef922c5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>
