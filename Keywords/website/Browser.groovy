@@ -24,11 +24,11 @@ public class Browser {
 	@Keyword
 	def openBrowser(String url) {
 		WebUI.openBrowser('')
-		
+
 		WebUI.maximizeWindow()
-		
+
 		WebUI.navigateToUrl(url)
-		
+
 		WebUI.delay(5)
 	}
 }
