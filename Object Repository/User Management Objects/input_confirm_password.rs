@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_confirm_password</name>
+   <tag></tag>
+   <elementGuidId>195ac629-de01-4a6b-8882-2a46ea7cb79b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>51e72999-fbaa-45b2-b8f2-f32a4490a7a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@name='confirm_passwordRegisterPage']</value>
+      <webElementGuid>ffb0d701-db9c-4bf4-b1c2-b8cda6da3d0f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

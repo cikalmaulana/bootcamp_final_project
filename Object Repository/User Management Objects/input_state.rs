@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_state</name>
+   <tag></tag>
+   <elementGuidId>c92bb4ac-7f2b-4e9f-80ee-9e7a47265e56</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>ebbd8b38-30a4-4e28-ae81-11b7aaeb57b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@name='state_/_province_/_regionRegisterPage']</value>
+      <webElementGuid>5316a9b6-97ea-46b6-9cf7-ebd8c1d3bbda</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

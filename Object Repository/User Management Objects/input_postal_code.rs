@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_postal_code</name>
+   <tag></tag>
+   <elementGuidId>3060d0e3-a6e2-4b90-9a73-2ec9f6b2ef96</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name='postal_codeRegisterPage']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>9f6e715f-9705-4b1d-94bf-3337cdc8513e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@name='postal_codeRegisterPage']</value>
+      <webElementGuid>9aa64b25-d905-4d23-82d0-e0c5dc74b00e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_account</name>
+   <tag></tag>
+   <elementGuidId>edf9a46b-7b51-4be1-99b4-6587c2ca329e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>d9c2e5dd-f9c1-4e82-8aa3-0bf7bc8c9810</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;menuUserLink&quot;]</value>
+      <webElementGuid>0502c7ed-0a5b-45ae-a564-76c31dd301b1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

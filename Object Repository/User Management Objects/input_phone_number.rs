@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_phone_number</name>
+   <tag></tag>
+   <elementGuidId>4e3b3a37-472e-49fa-861b-091f3c86a7c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>00c4cf5b-8c89-4a54-bb7f-ec0d7f29a73a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@name='phone_numberRegisterPage']</value>
+      <webElementGuid>fb56ba19-5ebe-430a-b780-496f6bea2009</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
