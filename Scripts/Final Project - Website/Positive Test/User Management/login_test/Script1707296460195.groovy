@@ -17,3 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'website.Browser.openBrowser'(GlobalVariable.website_url)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/User Management Objects/btn_account'), 10)
+WebUI.delay(10)
+WebUI.click(findTestObject('Object Repository/User Management Objects/btn_account'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/User Management Objects/input_login_username'), 10)
+WebUI.setText(findTestObject('Object Repository/User Management Objects/input_login_username'), GlobalVariable.username)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/User Management Objects/input_login_password'), 10)
+WebUI.setText(findTestObject('Object Repository/User Management Objects/input_login_password'), GlobalVariable.password)
+
+WebUI.check(findTestObject('Object Repository/User Management Objects/checkbox_login_remember_me'))
+
+WebUI.click(findTestObject('Object Repository/User Management Objects/btn_signin'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/User Management Objects/span_user_name'), 10)
+
+String displayedUsername = WebUI.getText(findTestObject('Object Repository/User Management Objects/span_user_name'))
+
+assert displayedUsername.equalsIgnoreCase(GlobalVariable.username) : 'Username false!'
+
+WebUI.closeBrowser()

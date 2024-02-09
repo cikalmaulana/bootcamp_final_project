@@ -19,17 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'website.Browser.openBrowser'(GlobalVariable.website_url)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/User Management Objects/btn_account'), 10)
+
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/User Management Objects/btn_account'))
 
 WebUI.click(findTestObject('Object Repository/User Management Objects/btn_create_account'))
 
-WebUI.setText(findTestObject('Object Repository/User Management Objects/input_username'), username)
+WebUI.setText(findTestObject('Object Repository/User Management Objects/input_username'), GlobalVariable.username)
 
 WebUI.setText(findTestObject('Object Repository/User Management Objects/input_email'), email)
 
-WebUI.setText(findTestObject('Object Repository/User Management Objects/input_password'), password)
+WebUI.setText(findTestObject('Object Repository/User Management Objects/input_password'), GlobalVariable.password)
 
-WebUI.setText(findTestObject('Object Repository/User Management Objects/input_confirm_password'), password)
+WebUI.setText(findTestObject('Object Repository/User Management Objects/input_confirm_password'), GlobalVariable.password)
 
 WebUI.setText(findTestObject('Object Repository/User Management Objects/input_email'), email)
 
@@ -55,7 +59,7 @@ WebUI.click(findTestObject('Object Repository/User Management Objects/btn_regist
 
 String displayedUsername = WebUI.getText(findTestObject('Object Repository/User Management Objects/span_user_name'))
 
-assert displayedUsername.equalsIgnoreCase(username) : 'Username false!'
+assert displayedUsername.equalsIgnoreCase(GlobalVariable.username) : 'Username false!'
 
 WebUI.closeBrowser()
 
