@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User Management,Chrome 121.0.0.0,,,2024-02-12 09:25:14,2024-02-12 09:26:28,1m - 14.664s,FAILED
+,,,,,,,
+Test Cases/Final Project - Website/Positive Test/User Management/login_test,Chrome 121.0.0.0,,,2024-02-12 09:25:14,2024-02-12 09:25:44,30.492s,PASSED
+website.Browser.openBrowser(website_url),Chrome 121.0.0.0,,,2024-02-12 09:25:14,2024-02-12 09:25:25,10.311s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/btn_account""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:25:25,2024-02-12 09:25:26,1.657s,PASSED
+delay(10),Chrome 121.0.0.0,,,2024-02-12 09:25:26,2024-02-12 09:25:36,10.019s,PASSED
+"click(findTestObject(""Object Repository/User Management Objects/btn_account""))",Chrome 121.0.0.0,,,2024-02-12 09:25:36,2024-02-12 09:25:37,0.649s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/input_login_username""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:25:37,2024-02-12 09:25:37,0.623s,PASSED
+"setText(findTestObject(""Object Repository/User Management Objects/input_login_username""), username)",Chrome 121.0.0.0,,,2024-02-12 09:25:37,2024-02-12 09:25:38,0.899s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/input_login_password""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:25:38,2024-02-12 09:25:40,1.170s,PASSED
+"setText(findTestObject(""Object Repository/User Management Objects/input_login_password""), password)",Chrome 121.0.0.0,,,2024-02-12 09:25:40,2024-02-12 09:25:40,0.788s,PASSED
+"check(findTestObject(""Object Repository/User Management Objects/checkbox_login_remember_me""))",Chrome 121.0.0.0,,,2024-02-12 09:25:40,2024-02-12 09:25:42,1.192s,PASSED
+"click(findTestObject(""Object Repository/User Management Objects/btn_signin""))",Chrome 121.0.0.0,,,2024-02-12 09:25:42,2024-02-12 09:25:42,0.583s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/span_user_name""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:25:42,2024-02-12 09:25:43,1.302s,PASSED
+"displayedUsername = getText(findTestObject(""Object Repository/User Management Objects/span_user_name""))",Chrome 121.0.0.0,,,2024-02-12 09:25:43,2024-02-12 09:25:44,0.381s,PASSED
+"assert displayedUsername.equalsIgnoreCase(username) : ""Username false!""",Chrome 121.0.0.0,,,2024-02-12 09:25:44,2024-02-12 09:25:44,0.030s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-12 09:25:44,2024-02-12 09:25:44,0.471s,PASSED
+,,,,,,,
+Test Cases/Final Project - Website/Positive Test/User Management/register_test,Chrome 121.0.0.0,,,2024-02-12 09:25:44,2024-02-12 09:26:28,43.952s,FAILED
+website.Browser.openBrowser(website_url),Chrome 121.0.0.0,,,2024-02-12 09:25:45,2024-02-12 09:25:55,9.727s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/btn_account""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:25:55,2024-02-12 09:25:55,0.467s,PASSED
+delay(10),Chrome 121.0.0.0,,,2024-02-12 09:25:55,2024-02-12 09:26:05,10.063s,PASSED
+"click(findTestObject(""Object Repository/User Management Objects/btn_account""))",Chrome 121.0.0.0,,,2024-02-12 09:26:05,2024-02-12 09:26:06,0.524s,PASSED
+"click(findTestObject(""Object Repository/User Management Objects/btn_create_account""))",Chrome 121.0.0.0,,,2024-02-12 09:26:06,2024-02-12 09:26:07,0.731s,PASSED
+"setText(findTestObject(""Object Repository/User Management Objects/input_username""), username)",Chrome 121.0.0.0,,,2024-02-12 09:26:07,2024-02-12 09:26:08,1.687s,PASSED
+"setText(findTestObject(""Object Repository/User Management Objects/input_email""), email)",Chrome 121.0.0.0,,,2024-02-12 09:26:08,2024-02-12 09:26:10,1.548s,PASSED
+"setText(findTestObject(""Object Repository/User Management Objects/input_password""), password)",Chrome 121.0.0.0,,,2024-02-12 09:26:10,2024-02-12 09:26:12,1.697s,PASSED
+"setText(findTestObject(""Object Repository/User Management Objects/input_confirm_password""), password)",Chrome 121.0.0.0,,,2024-02-12 09:26:12,2024-02-12 09:26:13,1.308s,PASSED
+"setText(findTestObject(""Object Repository/User Management Objects/input_email""), email)",Chrome 121.0.0.0,,,2024-02-12 09:26:13,2024-02-12 09:26:15,1.976s,PASSED
+"setText(findTestObject(""Object Repository/User Management Objects/input_first_name""), first_name)",Chrome 121.0.0.0,,,2024-02-12 09:26:15,2024-02-12 09:26:16,1.096s,PASSED
+"setText(findTestObject(""Object Repository/User Management Objects/input_last_name""), last_name)",Chrome 121.0.0.0,,,2024-02-12 09:26:16,2024-02-12 09:26:17,1.237s,PASSED
+"setText(findTestObject(""Object Repository/User Management Objects/input_phone_number""), phone_number)",Chrome 121.0.0.0,,,2024-02-12 09:26:17,2024-02-12 09:26:19,1.448s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/User Management Objects/select_country""), country, false)",Chrome 121.0.0.0,,,2024-02-12 09:26:19,2024-02-12 09:26:20,1.550s,PASSED
+"setText(findTestObject(""Object Repository/User Management Objects/input_city""), city)",Chrome 121.0.0.0,,,2024-02-12 09:26:20,2024-02-12 09:26:21,1.195s,PASSED
+"setText(findTestObject(""Object Repository/User Management Objects/input_address""), address)",Chrome 121.0.0.0,,,2024-02-12 09:26:21,2024-02-12 09:26:23,1.910s,PASSED
+"setText(findTestObject(""Object Repository/User Management Objects/input_state""), state)",Chrome 121.0.0.0,,,2024-02-12 09:26:23,2024-02-12 09:26:25,1.494s,PASSED
+"setText(findTestObject(""Object Repository/User Management Objects/input_postal_code""), postal_code)",Chrome 121.0.0.0,,,2024-02-12 09:26:25,2024-02-12 09:26:26,1.229s,PASSED
+"check(findTestObject(""Object Repository/User Management Objects/checkbox_agree""))",Chrome 121.0.0.0,,,2024-02-12 09:26:26,2024-02-12 09:26:27,0.635s,PASSED
+"click(findTestObject(""Object Repository/User Management Objects/btn_register""))",Chrome 121.0.0.0,,,2024-02-12 09:26:27,2024-02-12 09:26:27,0.527s,PASSED
+"displayedUsername = getText(findTestObject(""Object Repository/User Management Objects/span_user_name""))",Chrome 121.0.0.0,,,2024-02-12 09:26:27,2024-02-12 09:26:28,1.102s,PASSED
+"assert displayedUsername.equalsIgnoreCase(username) : ""Username false!""",Chrome 121.0.0.0,,,2024-02-12 09:26:28,2024-02-12 09:26:28,0.017s,FAILED

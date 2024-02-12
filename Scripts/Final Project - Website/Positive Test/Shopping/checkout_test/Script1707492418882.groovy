@@ -69,6 +69,9 @@ if(payment_method.equalsIgnoreCase("safepay")) {
 }else if(payment_method.equalsIgnoreCase("mastercredit")){
 	WebUI.click(findTestObject('Object Repository/Shopping/radio_master_credit'))
 	
+	WebUI.waitForElementVisible(findTestObject('Object Repository/Shopping/btn_mastercredit_edit'), 10)
+	WebUI.click(findTestObject('Object Repository/Shopping/btn_mastercredit_edit'))	
+	
 	WebUI.waitForElementVisible(findTestObject('Object Repository/Shopping/input_mastercredit_card_number'), 10)
 	WebUI.setText(findTestObject('Object Repository/Shopping/input_mastercredit_card_number'), master_credit_card_number)
 	
@@ -82,7 +85,7 @@ if(payment_method.equalsIgnoreCase("safepay")) {
 	WebUI.click(findTestObject('Object Repository/Shopping/btn_mastercredit_paynow'))
 }
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_1707496327515/div_order_success'), 10)
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_1707496327515/div_order_success'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Shopping/div_order_success'), 10)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Shopping/div_order_success'))
 
 WebUI.closeBrowser()

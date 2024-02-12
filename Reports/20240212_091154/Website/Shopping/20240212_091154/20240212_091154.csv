@@ -1,0 +1,146 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Shopping,Chrome 121.0.0.0,,,2024-02-12 09:11:59,2024-02-12 09:17:23,5m - 24.205s,PASSED
+,,,,,,,
+Test Cases/Final Project - Website/Positive Test/Shopping/checkout_test,Chrome 121.0.0.0,,,2024-02-12 09:11:59,2024-02-12 09:13:01,1m - 2.369s,PASSED
+website.Browser.openBrowser(website_url),Chrome 121.0.0.0,,,2024-02-12 09:12:00,2024-02-12 09:12:10,10.930s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/btn_account""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:12:10,2024-02-12 09:12:11,0.817s,PASSED
+delay(10),Chrome 121.0.0.0,,,2024-02-12 09:12:11,2024-02-12 09:12:21,10.024s,PASSED
+"click(findTestObject(""Object Repository/User Management Objects/btn_account""))",Chrome 121.0.0.0,,,2024-02-12 09:12:21,2024-02-12 09:12:22,0.479s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/input_login_username""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:12:22,2024-02-12 09:12:23,0.744s,PASSED
+"setText(findTestObject(""Object Repository/User Management Objects/input_login_username""), username)",Chrome 121.0.0.0,,,2024-02-12 09:12:23,2024-02-12 09:12:23,0.762s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/input_login_password""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:12:23,2024-02-12 09:12:24,1.152s,PASSED
+"setText(findTestObject(""Object Repository/User Management Objects/input_login_password""), password)",Chrome 121.0.0.0,,,2024-02-12 09:12:24,2024-02-12 09:12:25,0.747s,PASSED
+"check(findTestObject(""Object Repository/User Management Objects/checkbox_login_remember_me""))",Chrome 121.0.0.0,,,2024-02-12 09:12:25,2024-02-12 09:12:26,0.589s,PASSED
+"click(findTestObject(""Object Repository/User Management Objects/btn_signin""))",Chrome 121.0.0.0,,,2024-02-12 09:12:26,2024-02-12 09:12:26,0.623s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/span_user_name""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:12:26,2024-02-12 09:12:27,1.078s,PASSED
+"displayedUsername = getText(findTestObject(""Object Repository/User Management Objects/span_user_name""))",Chrome 121.0.0.0,,,2024-02-12 09:12:27,2024-02-12 09:12:28,0.407s,PASSED
+"assert displayedUsername.equalsIgnoreCase(username) : ""Username false!""",Chrome 121.0.0.0,,,2024-02-12 09:12:28,2024-02-12 09:12:28,0.024s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/img_item_speaker""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:12:28,2024-02-12 09:12:28,0.534s,PASSED
+"click(findTestObject(""Object Repository/Shopping/img_item_speaker""))",Chrome 121.0.0.0,,,2024-02-12 09:12:28,2024-02-12 09:12:29,0.386s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/btn_buy_now""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:12:29,2024-02-12 09:12:31,2.679s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_buy_now""))",Chrome 121.0.0.0,,,2024-02-12 09:12:31,2024-02-12 09:12:32,0.417s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/btn_add_to_cart""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:12:32,2024-02-12 09:12:42,10.113s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_add_to_cart""))",Chrome 121.0.0.0,,,2024-02-12 09:12:42,2024-02-12 09:12:42,0.403s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_shopping_cart""))",Chrome 121.0.0.0,,,2024-02-12 09:12:42,2024-02-12 09:12:44,2.052s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/btn_checkout""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:12:44,2024-02-12 09:12:46,1.646s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_checkout""))",Chrome 121.0.0.0,,,2024-02-12 09:12:46,2024-02-12 09:12:47,0.474s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/btn_next""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:12:47,2024-02-12 09:12:50,3.635s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_next""))",Chrome 121.0.0.0,,,2024-02-12 09:12:50,2024-02-12 09:12:51,0.526s,PASSED
+"assert payment_method.equalsIgnoreCase(""safepay"") || payment_method.equalsIgnoreCase(""mastercredit"") : ""Change Payment Method!""",Chrome 121.0.0.0,,,2024-02-12 09:12:51,2024-02-12 09:12:51,0.019s,PASSED
+"if (payment_method.equalsIgnoreCase(""safepay""))",Chrome 121.0.0.0,,,2024-02-12 09:12:51,2024-02-12 09:12:51,0.000s,PASSED
+"else if (payment_method.equalsIgnoreCase(""mastercredit""))",Chrome 121.0.0.0,,,2024-02-12 09:12:51,2024-02-12 09:12:58,7.370s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/div_order_success""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:12:58,2024-02-12 09:13:00,2.271s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Shopping/div_order_success""))",Chrome 121.0.0.0,,,2024-02-12 09:13:00,2024-02-12 09:13:01,0.371s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-12 09:13:01,2024-02-12 09:13:01,0.373s,PASSED
+,,,,,,,
+Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test,Chrome 121.0.0.0,,,2024-02-12 09:13:01,2024-02-12 09:13:32,30.516s,PASSED
+website.Browser.openBrowser(website_url),Chrome 121.0.0.0,,,2024-02-12 09:13:02,2024-02-12 09:13:12,10.919s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/btn_account""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:13:12,2024-02-12 09:13:14,1.407s,PASSED
+delay(10),Chrome 121.0.0.0,,,2024-02-12 09:13:14,2024-02-12 09:13:24,10.029s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/img_item_speaker""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:13:24,2024-02-12 09:13:24,0.546s,PASSED
+"click(findTestObject(""Object Repository/Shopping/img_item_speaker""))",Chrome 121.0.0.0,,,2024-02-12 09:13:24,2024-02-12 09:13:25,0.437s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/btn_manufacturer""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:13:25,2024-02-12 09:13:29,3.944s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_manufacturer""))",Chrome 121.0.0.0,,,2024-02-12 09:13:29,2024-02-12 09:13:29,0.382s,PASSED
+manufacturer = manufacturer,Chrome 121.0.0.0,,,2024-02-12 09:13:29,2024-02-12 09:13:29,0.009s,PASSED
+switch (manufacturer),Chrome 121.0.0.0,,,2024-02-12 09:13:29,2024-02-12 09:13:30,0.859s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_color""))",Chrome 121.0.0.0,,,2024-02-12 09:13:30,2024-02-12 09:13:31,0.534s,PASSED
+color = color,Chrome 121.0.0.0,,,2024-02-12 09:13:31,2024-02-12 09:13:31,0.000s,PASSED
+switch (color),Chrome 121.0.0.0,,,2024-02-12 09:13:31,2024-02-12 09:13:32,1.094s,PASSED
+,,,,,,,
+Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test,Chrome 121.0.0.0,,,2024-02-12 09:13:32,2024-02-12 09:14:22,50.066s,PASSED
+website.Browser.openBrowser(website_url),Chrome 121.0.0.0,,,2024-02-12 09:13:32,2024-02-12 09:13:58,25.619s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/btn_account""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:13:58,2024-02-12 09:13:59,0.900s,PASSED
+delay(10),Chrome 121.0.0.0,,,2024-02-12 09:13:59,2024-02-12 09:14:09,10.009s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/img_item_speaker""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:14:09,2024-02-12 09:14:09,0.363s,PASSED
+"click(findTestObject(""Object Repository/Shopping/img_item_speaker""))",Chrome 121.0.0.0,,,2024-02-12 09:14:09,2024-02-12 09:14:09,0.450s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/btn_manufacturer""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:14:09,2024-02-12 09:14:19,9.507s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_manufacturer""))",Chrome 121.0.0.0,,,2024-02-12 09:14:19,2024-02-12 09:14:19,0.396s,PASSED
+manufacturer = manufacturer,Chrome 121.0.0.0,,,2024-02-12 09:14:19,2024-02-12 09:14:19,0.001s,PASSED
+switch (manufacturer),Chrome 121.0.0.0,,,2024-02-12 09:14:19,2024-02-12 09:14:20,0.892s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_color""))",Chrome 121.0.0.0,,,2024-02-12 09:14:20,2024-02-12 09:14:21,0.593s,PASSED
+color = color,Chrome 121.0.0.0,,,2024-02-12 09:14:21,2024-02-12 09:14:21,0.000s,PASSED
+switch (color),Chrome 121.0.0.0,,,2024-02-12 09:14:21,2024-02-12 09:14:22,1.160s,PASSED
+,,,,,,,
+Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test,Chrome 121.0.0.0,,,2024-02-12 09:14:22,2024-02-12 09:14:51,28.825s,PASSED
+website.Browser.openBrowser(website_url),Chrome 121.0.0.0,,,2024-02-12 09:14:22,2024-02-12 09:14:32,10.070s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/btn_account""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:14:32,2024-02-12 09:14:33,0.407s,PASSED
+delay(10),Chrome 121.0.0.0,,,2024-02-12 09:14:33,2024-02-12 09:14:43,10.012s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/img_item_speaker""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:14:43,2024-02-12 09:14:43,0.368s,PASSED
+"click(findTestObject(""Object Repository/Shopping/img_item_speaker""))",Chrome 121.0.0.0,,,2024-02-12 09:14:43,2024-02-12 09:14:43,0.420s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/btn_manufacturer""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:14:43,2024-02-12 09:14:48,4.433s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_manufacturer""))",Chrome 121.0.0.0,,,2024-02-12 09:14:48,2024-02-12 09:14:48,0.412s,PASSED
+manufacturer = manufacturer,Chrome 121.0.0.0,,,2024-02-12 09:14:48,2024-02-12 09:14:48,0.000s,PASSED
+switch (manufacturer),Chrome 121.0.0.0,,,2024-02-12 09:14:48,2024-02-12 09:14:49,0.898s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_color""))",Chrome 121.0.0.0,,,2024-02-12 09:14:49,2024-02-12 09:14:50,0.475s,PASSED
+color = color,Chrome 121.0.0.0,,,2024-02-12 09:14:50,2024-02-12 09:14:50,0.000s,PASSED
+switch (color),Chrome 121.0.0.0,,,2024-02-12 09:14:50,2024-02-12 09:14:51,1.236s,PASSED
+,,,,,,,
+Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test,Chrome 121.0.0.0,,,2024-02-12 09:14:51,2024-02-12 09:15:27,36.303s,PASSED
+website.Browser.openBrowser(website_url),Chrome 121.0.0.0,,,2024-02-12 09:14:51,2024-02-12 09:15:07,16.121s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/btn_account""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:15:07,2024-02-12 09:15:07,0.458s,PASSED
+delay(10),Chrome 121.0.0.0,,,2024-02-12 09:15:07,2024-02-12 09:15:17,10.013s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/img_item_speaker""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:15:17,2024-02-12 09:15:18,0.383s,PASSED
+"click(findTestObject(""Object Repository/Shopping/img_item_speaker""))",Chrome 121.0.0.0,,,2024-02-12 09:15:18,2024-02-12 09:15:18,0.457s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/btn_manufacturer""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:15:18,2024-02-12 09:15:24,5.844s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_manufacturer""))",Chrome 121.0.0.0,,,2024-02-12 09:15:24,2024-02-12 09:15:25,0.399s,PASSED
+manufacturer = manufacturer,Chrome 121.0.0.0,,,2024-02-12 09:15:25,2024-02-12 09:15:25,0.001s,PASSED
+switch (manufacturer),Chrome 121.0.0.0,,,2024-02-12 09:15:25,2024-02-12 09:15:25,0.869s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_color""))",Chrome 121.0.0.0,,,2024-02-12 09:15:25,2024-02-12 09:15:26,0.515s,PASSED
+color = color,Chrome 121.0.0.0,,,2024-02-12 09:15:26,2024-02-12 09:15:26,0.000s,PASSED
+switch (color),Chrome 121.0.0.0,,,2024-02-12 09:15:26,2024-02-12 09:15:27,1.194s,PASSED
+,,,,,,,
+Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test,Chrome 121.0.0.0,,,2024-02-12 09:15:27,2024-02-12 09:15:55,27.439s,PASSED
+website.Browser.openBrowser(website_url),Chrome 121.0.0.0,,,2024-02-12 09:15:27,2024-02-12 09:15:37,9.876s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/btn_account""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:15:37,2024-02-12 09:15:38,0.730s,PASSED
+delay(10),Chrome 121.0.0.0,,,2024-02-12 09:15:38,2024-02-12 09:15:48,10.010s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/img_item_speaker""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:15:48,2024-02-12 09:15:48,0.411s,PASSED
+"click(findTestObject(""Object Repository/Shopping/img_item_speaker""))",Chrome 121.0.0.0,,,2024-02-12 09:15:48,2024-02-12 09:15:49,0.423s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/btn_manufacturer""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:15:49,2024-02-12 09:15:52,2.856s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_manufacturer""))",Chrome 121.0.0.0,,,2024-02-12 09:15:52,2024-02-12 09:15:52,0.361s,PASSED
+manufacturer = manufacturer,Chrome 121.0.0.0,,,2024-02-12 09:15:52,2024-02-12 09:15:52,0.000s,PASSED
+switch (manufacturer),Chrome 121.0.0.0,,,2024-02-12 09:15:52,2024-02-12 09:15:53,0.887s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_color""))",Chrome 121.0.0.0,,,2024-02-12 09:15:53,2024-02-12 09:15:53,0.577s,PASSED
+color = color,Chrome 121.0.0.0,,,2024-02-12 09:15:53,2024-02-12 09:15:53,0.000s,PASSED
+switch (color),Chrome 121.0.0.0,,,2024-02-12 09:15:53,2024-02-12 09:15:55,1.181s,PASSED
+,,,,,,,
+Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test,Chrome 121.0.0.0,,,2024-02-12 09:15:55,2024-02-12 09:16:29,33.922s,PASSED
+website.Browser.openBrowser(website_url),Chrome 121.0.0.0,,,2024-02-12 09:15:55,2024-02-12 09:16:02,7.420s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/btn_account""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:16:02,2024-02-12 09:16:03,0.947s,PASSED
+delay(10),Chrome 121.0.0.0,,,2024-02-12 09:16:03,2024-02-12 09:16:13,10.004s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/img_item_speaker""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:16:13,2024-02-12 09:16:13,0.388s,PASSED
+"click(findTestObject(""Object Repository/Shopping/img_item_speaker""))",Chrome 121.0.0.0,,,2024-02-12 09:16:13,2024-02-12 09:16:14,0.368s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/btn_manufacturer""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:16:14,2024-02-12 09:16:26,11.726s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_manufacturer""))",Chrome 121.0.0.0,,,2024-02-12 09:16:26,2024-02-12 09:16:26,0.386s,PASSED
+manufacturer = manufacturer,Chrome 121.0.0.0,,,2024-02-12 09:16:26,2024-02-12 09:16:26,0.001s,PASSED
+switch (manufacturer),Chrome 121.0.0.0,,,2024-02-12 09:16:26,2024-02-12 09:16:27,0.944s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_color""))",Chrome 121.0.0.0,,,2024-02-12 09:16:27,2024-02-12 09:16:27,0.522s,PASSED
+color = color,Chrome 121.0.0.0,,,2024-02-12 09:16:27,2024-02-12 09:16:27,0.001s,PASSED
+switch (color),Chrome 121.0.0.0,,,2024-02-12 09:16:27,2024-02-12 09:16:29,1.197s,PASSED
+,,,,,,,
+Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test,Chrome 121.0.0.0,,,2024-02-12 09:16:29,2024-02-12 09:16:56,26.964s,PASSED
+website.Browser.openBrowser(website_url),Chrome 121.0.0.0,,,2024-02-12 09:16:29,2024-02-12 09:16:39,9.880s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/btn_account""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:16:39,2024-02-12 09:16:39,0.463s,PASSED
+delay(10),Chrome 121.0.0.0,,,2024-02-12 09:16:39,2024-02-12 09:16:49,10.027s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/img_item_speaker""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:16:49,2024-02-12 09:16:49,0.374s,PASSED
+"click(findTestObject(""Object Repository/Shopping/img_item_speaker""))",Chrome 121.0.0.0,,,2024-02-12 09:16:49,2024-02-12 09:16:50,0.402s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/btn_manufacturer""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:16:50,2024-02-12 09:16:52,2.574s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_manufacturer""))",Chrome 121.0.0.0,,,2024-02-12 09:16:52,2024-02-12 09:16:53,0.391s,PASSED
+manufacturer = manufacturer,Chrome 121.0.0.0,,,2024-02-12 09:16:53,2024-02-12 09:16:53,0.000s,PASSED
+switch (manufacturer),Chrome 121.0.0.0,,,2024-02-12 09:16:53,2024-02-12 09:16:54,1.006s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_color""))",Chrome 121.0.0.0,,,2024-02-12 09:16:54,2024-02-12 09:16:54,0.633s,PASSED
+color = color,Chrome 121.0.0.0,,,2024-02-12 09:16:54,2024-02-12 09:16:54,0.000s,PASSED
+switch (color),Chrome 121.0.0.0,,,2024-02-12 09:16:54,2024-02-12 09:16:56,1.125s,PASSED
+,,,,,,,
+Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test,Chrome 121.0.0.0,,,2024-02-12 09:16:56,2024-02-12 09:17:23,27.174s,PASSED
+website.Browser.openBrowser(website_url),Chrome 121.0.0.0,,,2024-02-12 09:16:56,2024-02-12 09:17:05,9.728s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/User Management Objects/btn_account""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:17:05,2024-02-12 09:17:06,0.371s,PASSED
+delay(10),Chrome 121.0.0.0,,,2024-02-12 09:17:06,2024-02-12 09:17:16,10.021s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/img_item_speaker""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:17:16,2024-02-12 09:17:16,0.377s,PASSED
+"click(findTestObject(""Object Repository/Shopping/img_item_speaker""))",Chrome 121.0.0.0,,,2024-02-12 09:17:16,2024-02-12 09:17:17,0.412s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Shopping/btn_manufacturer""), 10)",Chrome 121.0.0.0,,,2024-02-12 09:17:17,2024-02-12 09:17:20,3.112s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_manufacturer""))",Chrome 121.0.0.0,,,2024-02-12 09:17:20,2024-02-12 09:17:20,0.373s,PASSED
+manufacturer = manufacturer,Chrome 121.0.0.0,,,2024-02-12 09:17:20,2024-02-12 09:17:20,0.000s,PASSED
+switch (manufacturer),Chrome 121.0.0.0,,,2024-02-12 09:17:20,2024-02-12 09:17:21,1.072s,PASSED
+"click(findTestObject(""Object Repository/Shopping/btn_color""))",Chrome 121.0.0.0,,,2024-02-12 09:17:21,2024-02-12 09:17:22,0.552s,PASSED
+color = color,Chrome 121.0.0.0,,,2024-02-12 09:17:22,2024-02-12 09:17:22,0.007s,PASSED
+switch (color),Chrome 121.0.0.0,,,2024-02-12 09:17:22,2024-02-12 09:17:23,1.105s,PASSED

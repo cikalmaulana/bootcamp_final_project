@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>Test Case about User Management (Register, Login, Edit Profile, Delete Account)</description>
+   <description></description>
    <name>User Management</name>
    <tag></tag>
    <isRerun>false</isRerun>
@@ -10,16 +10,16 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>01eb4f47-fc35-4556-870b-f7aa2f1e4b0a</testSuiteGuid>
+   <testSuiteGuid>1bd4f128-a9fb-454c-90bd-4acc065b3445</testSuiteGuid>
    <testCaseLink>
-      <guid>4a9e5a11-a91f-402a-95ad-f75faccfc4a8</guid>
+      <guid>3b8c2404-7a79-4dbd-8bc4-964479e33dd4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Final Project - Website/Positive Test/User Management/login_test</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6431f480-9636-4bed-907a-01bb35022dd9</guid>
+      <guid>915ddca8-5ffd-4000-8681-cf47103fce99</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Final Project - Website/Positive Test/User Management/register_test</testCaseId>

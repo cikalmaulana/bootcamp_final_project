@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d5839463-3461-43db-980c-16c53229dd50</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9aad766c-5de9-47e4-b07d-a2b8f20d067d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d5317d02-f8fc-4188-b70b-8605b435b5f5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'HP'</defaultValue>
+      <description></description>
+      <id>9aad766c-5de9-47e4-b07d-a2b8f20d067d</id>
+      <masked>false</masked>
+      <name>manufacturer</name>
+   </variable>
+   <variable>
+      <defaultValue>'Black'</defaultValue>
+      <description></description>
+      <id>d5317d02-f8fc-4188-b70b-8605b435b5f5</id>
+      <masked>false</masked>
+      <name>color</name>
+   </variable>
 </TestCaseEntity>

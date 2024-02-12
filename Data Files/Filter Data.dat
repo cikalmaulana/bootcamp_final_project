@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Filter Data</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>64390ad9-2723-4141-8eaf-15566f4b93a9</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Bose Black</data>
+   <data>Bose Blue</data>
+   <data>Bose Red</data>
+   <data>Bose White</data>
+   <data>HP Black</data>
+   <data>HP Blue</data>
+   <data>Logitech Red</data>
+   <data>Logitech White</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>manufacturer</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>color</name>
+      <size>8</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User Management" time="74.664" tests="2" failures="1" errors="0">
+   <testsuite name="User Management" tests="2" failures="1" errors="0" time="74.664" skipped="0" timestamp="2024-02-12 09:25:14" hostname="CIkal - Cikal" id="Test Suites/Website/User Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\CIkal\\git\\bootcamp_final_project\\Reports\\20240212_092509\\Website\\User Management\\20240212_092509"/>
+         <property name="logFiles" value="C:\\Users\\CIkal\\git\\bootcamp_final_project\\Reports\\20240212_092509\\Website\\User Management\\20240212_092509\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="CIkal - Cikal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.209"/>
+         <property name="sessionId" value="36d50f5a7f2bbbe0a5edcdd2dda77b00"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Final Project - Website/Positive Test/User Management/login_test" time="30.492" classname="Test Cases/Final Project - Website/Positive Test/User Management/login_test" status="PASSED">
+         <system-out><![CDATA[2024-02-12 09:25:14 - [TEST_CASE][PASSED] - Test Cases/Final Project - Website/Positive Test/User Management/login_test: Test Cases/Final Project - Website/Positive Test/User Management/login_test
+
+2024-02-12 09:25:14 - [TEST_STEP][PASSED] - website.Browser.openBrowser(website_url): website.Browser.openBrowser is PASSED
+
+2024-02-12 09:25:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-12 09:25:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-12 09:25:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-12 09:25:17 - [MESSAGE][PASSED] - Current window maximized
+
+2024-02-12 09:25:19 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+2024-02-12 09:25:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-12 09:25:25 - [MESSAGE][PASSED] - website.Browser.openBrowser is PASSED
+
+2024-02-12 09:25:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/btn_account"), 10): Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:25:26 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:25:26 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-02-12 09:25:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-02-12 09:25:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User Management Objects/btn_account")): Object: 'Object Repository/User Management Objects/btn_account' is clicked on
+
+2024-02-12 09:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management Objects/btn_account' is clicked on
+
+2024-02-12 09:25:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/input_login_username"), 10): Object 'Object Repository/User Management Objects/input_login_username' is visible
+
+2024-02-12 09:25:37 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/input_login_username' is visible
+
+2024-02-12 09:25:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management Objects/input_login_username"), username): Text 'AquaBotol3' is set on object 'Object Repository/User Management Objects/input_login_username'
+
+2024-02-12 09:25:38 - [MESSAGE][PASSED] - Text 'AquaBotol3' is set on object 'Object Repository/User Management Objects/input_login_username'
+
+2024-02-12 09:25:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/input_login_password"), 10): Object 'Object Repository/User Management Objects/input_login_password' is visible
+
+2024-02-12 09:25:40 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/input_login_password' is visible
+
+2024-02-12 09:25:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management Objects/input_login_password"), password): Text 'Aquabotol3' is set on object 'Object Repository/User Management Objects/input_login_password'
+
+2024-02-12 09:25:40 - [MESSAGE][PASSED] - Text 'Aquabotol3' is set on object 'Object Repository/User Management Objects/input_login_password'
+
+2024-02-12 09:25:40 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/User Management Objects/checkbox_login_remember_me")): Object 'Object Repository/User Management Objects/checkbox_login_remember_me' is checked
+
+2024-02-12 09:25:42 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/checkbox_login_remember_me' is checked
+
+2024-02-12 09:25:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User Management Objects/btn_signin")): Object: 'Object Repository/User Management Objects/btn_signin' is clicked on
+
+2024-02-12 09:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management Objects/btn_signin' is clicked on
+
+2024-02-12 09:25:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/span_user_name"), 10): Object 'Object Repository/User Management Objects/span_user_name' is visible
+
+2024-02-12 09:25:43 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/span_user_name' is visible
+
+2024-02-12 09:25:43 - [TEST_STEP][PASSED] - displayedUsername = getText(findTestObject("Object Repository/User Management Objects/span_user_name")): Text of object 'Object Repository/User Management Objects/span_user_name' is: 'AquaBotol3'
+
+2024-02-12 09:25:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/User Management Objects/span_user_name' is: 'AquaBotol3'
+
+2024-02-12 09:25:44 - [TEST_STEP][PASSED] - assert displayedUsername.equalsIgnoreCase(username) : "Username false!": null
+
+2024-02-12 09:25:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-02-12 09:25:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Project - Website/Positive Test/User Management/register_test" time="43.952" classname="Test Cases/Final Project - Website/Positive Test/User Management/register_test" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Final Project - Website/Positive Test/User Management/register_test FAILED.&#xa;Reason:&#xa;java.lang.AssertionError: Username false!. Expression: displayedUsername.equalsIgnoreCase(internal.GlobalVariable.username)&#xa;	at register_test.run(register_test:62)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1707704709449.run(TempTestSuite1707704709449.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[2024-02-12 09:25:44 - [TEST_CASE][FAILED] - Test Cases/Final Project - Website/Positive Test/User Management/register_test: Test Cases/Final Project - Website/Positive Test/User Management/register_test FAILED.
+Reason:
+java.lang.AssertionError: Username false!. Expression: displayedUsername.equalsIgnoreCase(internal.GlobalVariable.username)
+	at register_test.run(register_test:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1707704709449.run(TempTestSuite1707704709449.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+2024-02-12 09:25:45 - [TEST_STEP][PASSED] - website.Browser.openBrowser(website_url): website.Browser.openBrowser is PASSED
+
+2024-02-12 09:25:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-12 09:25:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-12 09:25:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-12 09:25:46 - [MESSAGE][PASSED] - Current window maximized
+
+2024-02-12 09:25:50 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+2024-02-12 09:25:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-12 09:25:55 - [MESSAGE][PASSED] - website.Browser.openBrowser is PASSED
+
+2024-02-12 09:25:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/btn_account"), 10): Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:25:55 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:25:55 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-02-12 09:26:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-02-12 09:26:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User Management Objects/btn_account")): Object: 'Object Repository/User Management Objects/btn_account' is clicked on
+
+2024-02-12 09:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management Objects/btn_account' is clicked on
+
+2024-02-12 09:26:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User Management Objects/btn_create_account")): Object: 'Object Repository/User Management Objects/btn_create_account' is clicked on
+
+2024-02-12 09:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management Objects/btn_create_account' is clicked on
+
+2024-02-12 09:26:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management Objects/input_username"), username): Text 'AquaBotol3' is set on object 'Object Repository/User Management Objects/input_username'
+
+2024-02-12 09:26:08 - [MESSAGE][PASSED] - Text 'AquaBotol3' is set on object 'Object Repository/User Management Objects/input_username'
+
+2024-02-12 09:26:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management Objects/input_email"), email): Text 'aquabotol@gmail.com' is set on object 'Object Repository/User Management Objects/input_email'
+
+2024-02-12 09:26:10 - [MESSAGE][PASSED] - Text 'aquabotol@gmail.com' is set on object 'Object Repository/User Management Objects/input_email'
+
+2024-02-12 09:26:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management Objects/input_password"), password): Text 'Aquabotol3' is set on object 'Object Repository/User Management Objects/input_password'
+
+2024-02-12 09:26:12 - [MESSAGE][PASSED] - Text 'Aquabotol3' is set on object 'Object Repository/User Management Objects/input_password'
+
+2024-02-12 09:26:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management Objects/input_confirm_password"), password): Text 'Aquabotol3' is set on object 'Object Repository/User Management Objects/input_confirm_password'
+
+2024-02-12 09:26:13 - [MESSAGE][PASSED] - Text 'Aquabotol3' is set on object 'Object Repository/User Management Objects/input_confirm_password'
+
+2024-02-12 09:26:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management Objects/input_email"), email): Text 'aquabotol@gmail.com' is set on object 'Object Repository/User Management Objects/input_email'
+
+2024-02-12 09:26:15 - [MESSAGE][PASSED] - Text 'aquabotol@gmail.com' is set on object 'Object Repository/User Management Objects/input_email'
+
+2024-02-12 09:26:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management Objects/input_first_name"), first_name): Text 'Air' is set on object 'Object Repository/User Management Objects/input_first_name'
+
+2024-02-12 09:26:16 - [MESSAGE][PASSED] - Text 'Air' is set on object 'Object Repository/User Management Objects/input_first_name'
+
+2024-02-12 09:26:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management Objects/input_last_name"), last_name): Text 'Aqua' is set on object 'Object Repository/User Management Objects/input_last_name'
+
+2024-02-12 09:26:17 - [MESSAGE][PASSED] - Text 'Aqua' is set on object 'Object Repository/User Management Objects/input_last_name'
+
+2024-02-12 09:26:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management Objects/input_phone_number"), phone_number): Text '14045' is set on object 'Object Repository/User Management Objects/input_phone_number'
+
+2024-02-12 09:26:19 - [MESSAGE][PASSED] - Text '14045' is set on object 'Object Repository/User Management Objects/input_phone_number'
+
+2024-02-12 09:26:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/User Management Objects/select_country"), country, false): All options with label 'Indonesia' are selected in object 'Object Repository/User Management Objects/select_country' 
+
+2024-02-12 09:26:20 - [MESSAGE][PASSED] - All options with label 'Indonesia' are selected in object 'Object Repository/User Management Objects/select_country' 
+
+2024-02-12 09:26:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management Objects/input_city"), city): Text 'Jakarta' is set on object 'Object Repository/User Management Objects/input_city'
+
+2024-02-12 09:26:21 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/User Management Objects/input_city'
+
+2024-02-12 09:26:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management Objects/input_address"), address): Text 'Address' is set on object 'Object Repository/User Management Objects/input_address'
+
+2024-02-12 09:26:23 - [MESSAGE][PASSED] - Text 'Address' is set on object 'Object Repository/User Management Objects/input_address'
+
+2024-02-12 09:26:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management Objects/input_state"), state): Text 'DKI' is set on object 'Object Repository/User Management Objects/input_state'
+
+2024-02-12 09:26:25 - [MESSAGE][PASSED] - Text 'DKI' is set on object 'Object Repository/User Management Objects/input_state'
+
+2024-02-12 09:26:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management Objects/input_postal_code"), postal_code): Text '80000' is set on object 'Object Repository/User Management Objects/input_postal_code'
+
+2024-02-12 09:26:26 - [MESSAGE][PASSED] - Text '80000' is set on object 'Object Repository/User Management Objects/input_postal_code'
+
+2024-02-12 09:26:26 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/User Management Objects/checkbox_agree")): Object 'Object Repository/User Management Objects/checkbox_agree' is checked
+
+2024-02-12 09:26:27 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/checkbox_agree' is checked
+
+2024-02-12 09:26:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User Management Objects/btn_register")): Object: 'Object Repository/User Management Objects/btn_register' is clicked on
+
+2024-02-12 09:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management Objects/btn_register' is clicked on
+
+2024-02-12 09:26:27 - [TEST_STEP][PASSED] - displayedUsername = getText(findTestObject("Object Repository/User Management Objects/span_user_name")): Text of object 'Object Repository/User Management Objects/span_user_name' is: ''
+
+2024-02-12 09:26:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/User Management Objects/span_user_name' is: ''
+
+2024-02-12 09:26:28 - [TEST_STEP][FAILED] - assert displayedUsername.equalsIgnoreCase(username) : "Username false!": Test Cases/Final Project - Website/Positive Test/User Management/register_test FAILED.
+Reason:
+java.lang.AssertionError: Username false!. Expression: displayedUsername.equalsIgnoreCase(internal.GlobalVariable.username)
+	at register_test.run(register_test:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1707704709449.run(TempTestSuite1707704709449.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+2024-02-12 09:26:28 - [MESSAGE][FAILED] - Test Cases/Final Project - Website/Positive Test/User Management/register_test FAILED.
+Reason:
+java.lang.AssertionError: Username false!. Expression: displayedUsername.equalsIgnoreCase(internal.GlobalVariable.username)
+	at register_test.run(register_test:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1707704709449.run(TempTestSuite1707704709449.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[2024-02-12 09:25:44 - [TEST_CASE][FAILED] - Test Cases/Final Project - Website/Positive Test/User Management/register_test: Test Cases/Final Project - Website/Positive Test/User Management/register_test FAILED.
+Reason:
+java.lang.AssertionError: Username false!. Expression: displayedUsername.equalsIgnoreCase(internal.GlobalVariable.username)
+	at register_test.run(register_test:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1707704709449.run(TempTestSuite1707704709449.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-12 09:25:14 - [TEST_SUITE][FAILED] - User Management: Test Cases/Final Project - Website/Positive Test/User Management/register_test FAILED.
+Reason:
+java.lang.AssertionError: Username false!. Expression: displayedUsername.equalsIgnoreCase(internal.GlobalVariable.username)
+	at register_test.run(register_test:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1707704709449.run(TempTestSuite1707704709449.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[2024-02-12 09:25:14 - [TEST_SUITE][FAILED] - User Management: Test Cases/Final Project - Website/Positive Test/User Management/register_test FAILED.
+Reason:
+java.lang.AssertionError: Username false!. Expression: displayedUsername.equalsIgnoreCase(internal.GlobalVariable.username)
+	at register_test.run(register_test:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1707704709449.run(TempTestSuite1707704709449.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

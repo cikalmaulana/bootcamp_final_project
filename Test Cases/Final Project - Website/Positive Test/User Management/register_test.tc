@@ -72,14 +72,14 @@
       <variableId>05d94025-d3e7-4c35-8da7-79e80fa3c8cf</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'AquaBotol2'</defaultValue>
+      <defaultValue>'AquaBotol4'</defaultValue>
       <description></description>
       <id>31008291-50e8-44d6-9aba-dc1010bb0b3c</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>'Password123'</defaultValue>
+      <defaultValue>'AquaBotol4'</defaultValue>
       <description></description>
       <id>d1fcba8a-e837-47f4-9b1a-082b7f243656</id>
       <masked>false</masked>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>This test suite, named &quot;Shopping,&quot; is designed to validate the functionality of the search filter on an e-commerce platform. The suite encompasses tests that specifically target the filtering capabilities based on price, manufacturer, and color criteria.</description>
+   <description></description>
    <name>Shopping</name>
    <tag></tag>
    <isRerun>false</isRerun>
@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>399c031d-7074-4c9a-b9a1-e271630e06d5</testSuiteGuid>
+   <testSuiteGuid>d38c5c5d-ae2a-478f-b774-1009114c8699</testSuiteGuid>
    <testCaseLink>
-      <guid>1c48574f-3dd6-41fa-8338-3369a8c3e388</guid>
+      <guid>1e5d1814-ffa2-49b0-9d57-a3876919893b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Final Project - Website/Positive Test/Shopping/checkout_test</testCaseId>
@@ -67,10 +67,31 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9535d632-3ccb-4987-b94b-8fd55ef922c5</guid>
+      <guid>b3731eb8-9d8b-4030-817d-06c8dbb75bad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>dec88d86-aada-4cfd-93f6-3a408a9c68ef</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Filter Data</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>dec88d86-aada-4cfd-93f6-3a408a9c68ef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>manufacturer</value>
+         <variableId>9aad766c-5de9-47e4-b07d-a2b8f20d067d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dec88d86-aada-4cfd-93f6-3a408a9c68ef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>color</value>
+         <variableId>d5317d02-f8fc-4188-b70b-8605b435b5f5</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

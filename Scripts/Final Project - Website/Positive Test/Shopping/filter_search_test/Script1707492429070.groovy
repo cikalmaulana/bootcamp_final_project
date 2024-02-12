@@ -17,3 +17,62 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'website.Browser.openBrowser'(GlobalVariable.website_url)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/User Management Objects/btn_account'), 10)
+WebUI.delay(10)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Shopping/img_item_speaker'), 10)
+WebUI.click(findTestObject('Object Repository/Shopping/img_item_speaker'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Shopping/btn_manufacturer'), 10)
+WebUI.click(findTestObject('Object Repository/Shopping/btn_manufacturer'))
+
+def manufacturer = manufacturer
+switch (manufacturer) {
+	case manufacturer = 'Bose':
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Shopping/checkbox_bose'), 10)
+		WebUI.click(findTestObject('Object Repository/Shopping/checkbox_bose'))
+		break
+	case manufacturer = 'HP':
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Shopping/checkbox_hp'), 10)
+		WebUI.click(findTestObject('Object Repository/Shopping/checkbox_hp'))
+		break
+	case manufacturer = 'Logitech':
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Shopping/checkbox_logitech'), 10)
+		WebUI.click(findTestObject('Object Repository/Shopping/checkbox_logitech'))
+		break
+	default:
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Shopping/checkbox_bose'), 10)
+		WebUI.click(findTestObject('Object Repository/Shopping/checkbox_bose'))
+		break
+}
+
+WebUI.click(findTestObject('Object Repository/Shopping/btn_color'))
+
+def color = color
+switch (color) {
+	case color = 'Black':
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Shopping/btn_color_black'), 10)
+		WebUI.click(findTestObject('Object Repository/Shopping/btn_color_black'))
+		break
+	case color = 'Blue':
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Shopping/btn_color_blue'), 10)
+		WebUI.click(findTestObject('Object Repository/Shopping/btn_color_blue'))
+		break
+	case color = 'Red':
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Shopping/btn_color_red'), 10)
+		WebUI.click(findTestObject('Object Repository/Shopping/btn_color_red'))
+		break
+	case color = 'White':
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Shopping/btn_color_white'), 10)
+		WebUI.click(findTestObject('Object Repository/Shopping/btn_color_white'))
+		break
+	default:
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Shopping/btn_color_black'), 10)
+		WebUI.click(findTestObject('Object Repository/Shopping/btn_color_black'))
+		break
+}
+
+WebUI.delay(5)
+WebUI.closeBrowser()

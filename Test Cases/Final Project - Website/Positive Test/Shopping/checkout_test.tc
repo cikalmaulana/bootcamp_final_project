@@ -82,7 +82,7 @@
       <name>master_credit_card_number</name>
    </variable>
    <variable>
-      <defaultValue>'1182'</defaultValue>
+      <defaultValue>'182'</defaultValue>
       <description></description>
       <id>74df7ec5-f27a-43cc-bf90-cc2bf731cd90</id>
       <masked>false</masked>

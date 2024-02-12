@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_manufacturer</name>
+   <tag></tag>
+   <elementGuidId>b92d8067-603c-4f79-a5cf-e76cd404afed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>51a8d956-4e49-4bbf-89e8-47d376aa793a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h4[@id='accordionAttrib1']</value>
+      <webElementGuid>a0e47b9c-64ff-49ac-9e13-cfeb9aecda2c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

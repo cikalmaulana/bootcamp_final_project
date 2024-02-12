@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_color_black</name>
+   <tag></tag>
+   <elementGuidId>055687c0-62fc-420a-b4d1-d1bb7cf9222e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>14a6a19c-6d9c-4db5-ad4c-0c4b21f7d5e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='BLACK']</value>
+      <webElementGuid>8f8cd030-c8fb-4d98-8ba2-1f1d75bcbd58</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Shopping" time="324.205" tests="9" failures="0" errors="0">
+   <testsuite name="Shopping" tests="9" failures="0" errors="0" time="324.205" skipped="0" timestamp="2024-02-12 09:11:59" hostname="CIkal - Cikal" id="Test Suites/Website/Shopping">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\CIkal\\git\\bootcamp_final_project\\Reports\\20240212_091154\\Website\\Shopping\\20240212_091154"/>
+         <property name="logFiles" value="C:\\Users\\CIkal\\git\\bootcamp_final_project\\Reports\\20240212_091154\\Website\\Shopping\\20240212_091154\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="CIkal - Cikal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.209"/>
+         <property name="sessionId" value="4f79ae19d9ed41b77fa3501116887506"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Final Project - Website/Positive Test/Shopping/checkout_test" time="62.369" classname="Test Cases/Final Project - Website/Positive Test/Shopping/checkout_test" status="PASSED">
+         <system-out><![CDATA[2024-02-12 09:11:59 - [TEST_CASE][PASSED] - Test Cases/Final Project - Website/Positive Test/Shopping/checkout_test: Test Cases/Final Project - Website/Positive Test/Shopping/checkout_test
+
+2024-02-12 09:12:00 - [TEST_STEP][PASSED] - website.Browser.openBrowser(website_url): website.Browser.openBrowser is PASSED
+
+2024-02-12 09:12:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-12 09:12:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-12 09:12:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-12 09:12:02 - [MESSAGE][PASSED] - Current window maximized
+
+2024-02-12 09:12:05 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+2024-02-12 09:12:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-12 09:12:10 - [MESSAGE][PASSED] - website.Browser.openBrowser is PASSED
+
+2024-02-12 09:12:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/btn_account"), 10): Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:12:11 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:12:11 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-02-12 09:12:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-02-12 09:12:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User Management Objects/btn_account")): Object: 'Object Repository/User Management Objects/btn_account' is clicked on
+
+2024-02-12 09:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management Objects/btn_account' is clicked on
+
+2024-02-12 09:12:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/input_login_username"), 10): Object 'Object Repository/User Management Objects/input_login_username' is visible
+
+2024-02-12 09:12:23 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/input_login_username' is visible
+
+2024-02-12 09:12:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management Objects/input_login_username"), username): Text 'AquaBotol3' is set on object 'Object Repository/User Management Objects/input_login_username'
+
+2024-02-12 09:12:23 - [MESSAGE][PASSED] - Text 'AquaBotol3' is set on object 'Object Repository/User Management Objects/input_login_username'
+
+2024-02-12 09:12:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/input_login_password"), 10): Object 'Object Repository/User Management Objects/input_login_password' is visible
+
+2024-02-12 09:12:24 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/input_login_password' is visible
+
+2024-02-12 09:12:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management Objects/input_login_password"), password): Text 'Aquabotol3' is set on object 'Object Repository/User Management Objects/input_login_password'
+
+2024-02-12 09:12:25 - [MESSAGE][PASSED] - Text 'Aquabotol3' is set on object 'Object Repository/User Management Objects/input_login_password'
+
+2024-02-12 09:12:25 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/User Management Objects/checkbox_login_remember_me")): Object 'Object Repository/User Management Objects/checkbox_login_remember_me' is checked
+
+2024-02-12 09:12:26 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/checkbox_login_remember_me' is checked
+
+2024-02-12 09:12:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User Management Objects/btn_signin")): Object: 'Object Repository/User Management Objects/btn_signin' is clicked on
+
+2024-02-12 09:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management Objects/btn_signin' is clicked on
+
+2024-02-12 09:12:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/span_user_name"), 10): Object 'Object Repository/User Management Objects/span_user_name' is visible
+
+2024-02-12 09:12:27 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/span_user_name' is visible
+
+2024-02-12 09:12:27 - [TEST_STEP][PASSED] - displayedUsername = getText(findTestObject("Object Repository/User Management Objects/span_user_name")): Text of object 'Object Repository/User Management Objects/span_user_name' is: 'AquaBotol3'
+
+2024-02-12 09:12:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/User Management Objects/span_user_name' is: 'AquaBotol3'
+
+2024-02-12 09:12:28 - [TEST_STEP][PASSED] - assert displayedUsername.equalsIgnoreCase(username) : "Username false!": null
+
+2024-02-12 09:12:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/img_item_speaker"), 10): Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:12:28 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/img_item_speaker")): Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:12:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_buy_now"), 10): Object 'Object Repository/Shopping/btn_buy_now' is visible
+
+2024-02-12 09:12:31 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_buy_now' is visible
+
+2024-02-12 09:12:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_buy_now")): Object: 'Object Repository/Shopping/btn_buy_now' is clicked on
+
+2024-02-12 09:12:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_buy_now' is clicked on
+
+2024-02-12 09:12:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_add_to_cart"), 10): Object 'Object Repository/Shopping/btn_add_to_cart' is visible
+
+2024-02-12 09:12:42 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_add_to_cart' is visible
+
+2024-02-12 09:12:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_add_to_cart")): Object: 'Object Repository/Shopping/btn_add_to_cart' is clicked on
+
+2024-02-12 09:12:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_add_to_cart' is clicked on
+
+2024-02-12 09:12:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_shopping_cart")): Object: 'Object Repository/Shopping/btn_shopping_cart' is clicked on
+
+2024-02-12 09:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_shopping_cart' is clicked on
+
+2024-02-12 09:12:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_checkout"), 10): Object 'Object Repository/Shopping/btn_checkout' is visible
+
+2024-02-12 09:12:46 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_checkout' is visible
+
+2024-02-12 09:12:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_checkout")): Object: 'Object Repository/Shopping/btn_checkout' is clicked on
+
+2024-02-12 09:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_checkout' is clicked on
+
+2024-02-12 09:12:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_next"), 10): Object 'Object Repository/Shopping/btn_next' is visible
+
+2024-02-12 09:12:50 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_next' is visible
+
+2024-02-12 09:12:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_next")): Object: 'Object Repository/Shopping/btn_next' is clicked on
+
+2024-02-12 09:12:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_next' is clicked on
+
+2024-02-12 09:12:51 - [TEST_STEP][PASSED] - assert payment_method.equalsIgnoreCase("safepay") || payment_method.equalsIgnoreCase("mastercredit") : "Change Payment Method!": null
+
+2024-02-12 09:12:51 - [TEST_STEP][PASSED] - if (payment_method.equalsIgnoreCase("safepay")): null
+
+2024-02-12 09:12:51 - [TEST_STEP][PASSED] - else if (payment_method.equalsIgnoreCase("mastercredit")): Object: 'Object Repository/Shopping/btn_mastercredit_paynow' is clicked on
+
+2024-02-12 09:12:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/radio_master_credit")): Object: 'Object Repository/Shopping/radio_master_credit' is clicked on
+
+2024-02-12 09:12:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/radio_master_credit' is clicked on
+
+2024-02-12 09:12:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_mastercredit_edit"), 10): Object 'Object Repository/Shopping/btn_mastercredit_edit' is visible
+
+2024-02-12 09:12:52 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_mastercredit_edit' is visible
+
+2024-02-12 09:12:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_mastercredit_edit")): Object: 'Object Repository/Shopping/btn_mastercredit_edit' is clicked on
+
+2024-02-12 09:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_mastercredit_edit' is clicked on
+
+2024-02-12 09:12:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/input_mastercredit_card_number"), 10): Object 'Object Repository/Shopping/input_mastercredit_card_number' is visible
+
+2024-02-12 09:12:53 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/input_mastercredit_card_number' is visible
+
+2024-02-12 09:12:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping/input_mastercredit_card_number"), master_credit_card_number): Text '0012345678908888' is set on object 'Object Repository/Shopping/input_mastercredit_card_number'
+
+2024-02-12 09:12:54 - [MESSAGE][PASSED] - Text '0012345678908888' is set on object 'Object Repository/Shopping/input_mastercredit_card_number'
+
+2024-02-12 09:12:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping/input_mastercredit_cvv_number"), master_credit_cvv): Text '182' is set on object 'Object Repository/Shopping/input_mastercredit_cvv_number'
+
+2024-02-12 09:12:55 - [MESSAGE][PASSED] - Text '182' is set on object 'Object Repository/Shopping/input_mastercredit_cvv_number'
+
+2024-02-12 09:12:55 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Shopping/select_mastercredit_exp_month"), master_credit_exp_month, false): All options with label '12' are selected in object 'Object Repository/Shopping/select_mastercredit_exp_month' 
+
+2024-02-12 09:12:56 - [MESSAGE][PASSED] - All options with label '12' are selected in object 'Object Repository/Shopping/select_mastercredit_exp_month' 
+
+2024-02-12 09:12:56 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Shopping/select_mastercredit_exp_year"), master_credit_exp_year, false): All options with label '2026' are selected in object 'Object Repository/Shopping/select_mastercredit_exp_year' 
+
+2024-02-12 09:12:57 - [MESSAGE][PASSED] - All options with label '2026' are selected in object 'Object Repository/Shopping/select_mastercredit_exp_year' 
+
+2024-02-12 09:12:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Shopping/input_mastercredit_name"), master_credit_name): Text 'AquaBotol' is set on object 'Object Repository/Shopping/input_mastercredit_name'
+
+2024-02-12 09:12:58 - [MESSAGE][PASSED] - Text 'AquaBotol' is set on object 'Object Repository/Shopping/input_mastercredit_name'
+
+2024-02-12 09:12:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_mastercredit_paynow")): Object: 'Object Repository/Shopping/btn_mastercredit_paynow' is clicked on
+
+2024-02-12 09:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_mastercredit_paynow' is clicked on
+
+2024-02-12 09:12:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/div_order_success"), 10): Object 'Object Repository/Shopping/div_order_success' is visible
+
+2024-02-12 09:13:00 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/div_order_success' is visible
+
+2024-02-12 09:13:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Shopping/div_order_success")): Object 'Object Repository/Shopping/div_order_success' is visible
+
+2024-02-12 09:13:01 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/div_order_success' is visible
+
+2024-02-12 09:13:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-02-12 09:13:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test" time="30.516" classname="Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test" status="PASSED">
+         <system-out><![CDATA[2024-02-12 09:13:01 - [TEST_CASE][PASSED] - Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test: Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test
+
+2024-02-12 09:13:02 - [TEST_STEP][PASSED] - website.Browser.openBrowser(website_url): website.Browser.openBrowser is PASSED
+
+2024-02-12 09:13:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-12 09:13:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-12 09:13:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-12 09:13:03 - [MESSAGE][PASSED] - Current window maximized
+
+2024-02-12 09:13:07 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+2024-02-12 09:13:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-12 09:13:12 - [MESSAGE][PASSED] - website.Browser.openBrowser is PASSED
+
+2024-02-12 09:13:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/btn_account"), 10): Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:13:14 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:13:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-02-12 09:13:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-02-12 09:13:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/img_item_speaker"), 10): Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:13:24 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:13:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/img_item_speaker")): Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:13:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:13:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_manufacturer"), 10): Object 'Object Repository/Shopping/btn_manufacturer' is visible
+
+2024-02-12 09:13:29 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_manufacturer' is visible
+
+2024-02-12 09:13:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_manufacturer")): Object: 'Object Repository/Shopping/btn_manufacturer' is clicked on
+
+2024-02-12 09:13:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_manufacturer' is clicked on
+
+2024-02-12 09:13:29 - [TEST_STEP][PASSED] - manufacturer = manufacturer: null
+
+2024-02-12 09:13:29 - [TEST_STEP][PASSED] - switch (manufacturer): null
+
+2024-02-12 09:13:29 - [TEST_STEP][PASSED] - case manufacturer = "Bose":: null
+
+2024-02-12 09:13:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/checkbox_bose"), 10): Object 'Object Repository/Shopping/checkbox_bose' is visible
+
+2024-02-12 09:13:30 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/checkbox_bose' is visible
+
+2024-02-12 09:13:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/checkbox_bose")): Object: 'Object Repository/Shopping/checkbox_bose' is clicked on
+
+2024-02-12 09:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/checkbox_bose' is clicked on
+
+2024-02-12 09:13:30 - [TEST_STEP][PASSED] - break: null
+
+2024-02-12 09:13:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_color")): Object: 'Object Repository/Shopping/btn_color' is clicked on
+
+2024-02-12 09:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_color' is clicked on
+
+2024-02-12 09:13:31 - [TEST_STEP][PASSED] - color = color: null
+
+2024-02-12 09:13:31 - [TEST_STEP][PASSED] - switch (color): null
+
+2024-02-12 09:13:31 - [TEST_STEP][PASSED] - case color = "Black":: null
+
+2024-02-12 09:13:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_color_black"), 10): Object 'Object Repository/Shopping/btn_color_black' is visible
+
+2024-02-12 09:13:31 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_color_black' is visible
+
+2024-02-12 09:13:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_color_black")): Object: 'Object Repository/Shopping/btn_color_black' is clicked on
+
+2024-02-12 09:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_color_black' is clicked on
+
+2024-02-12 09:13:32 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test" time="50.066" classname="Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test" status="PASSED">
+         <system-out><![CDATA[2024-02-12 09:13:32 - [TEST_CASE][PASSED] - Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test: Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test
+
+2024-02-12 09:13:32 - [TEST_STEP][PASSED] - website.Browser.openBrowser(website_url): website.Browser.openBrowser is PASSED
+
+2024-02-12 09:13:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-02-12 09:13:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-12 09:13:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-12 09:13:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-12 09:13:33 - [MESSAGE][PASSED] - Current window maximized
+
+2024-02-12 09:13:53 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+2024-02-12 09:13:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-12 09:13:58 - [MESSAGE][PASSED] - website.Browser.openBrowser is PASSED
+
+2024-02-12 09:13:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/btn_account"), 10): Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:13:59 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:13:59 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-02-12 09:14:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-02-12 09:14:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/img_item_speaker"), 10): Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:14:09 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:14:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/img_item_speaker")): Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:14:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:14:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_manufacturer"), 10): Object 'Object Repository/Shopping/btn_manufacturer' is visible
+
+2024-02-12 09:14:19 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_manufacturer' is visible
+
+2024-02-12 09:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_manufacturer")): Object: 'Object Repository/Shopping/btn_manufacturer' is clicked on
+
+2024-02-12 09:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_manufacturer' is clicked on
+
+2024-02-12 09:14:19 - [TEST_STEP][PASSED] - manufacturer = manufacturer: null
+
+2024-02-12 09:14:19 - [TEST_STEP][PASSED] - switch (manufacturer): null
+
+2024-02-12 09:14:19 - [TEST_STEP][PASSED] - case manufacturer = "Bose":: null
+
+2024-02-12 09:14:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/checkbox_bose"), 10): Object 'Object Repository/Shopping/checkbox_bose' is visible
+
+2024-02-12 09:14:20 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/checkbox_bose' is visible
+
+2024-02-12 09:14:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/checkbox_bose")): Object: 'Object Repository/Shopping/checkbox_bose' is clicked on
+
+2024-02-12 09:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/checkbox_bose' is clicked on
+
+2024-02-12 09:14:20 - [TEST_STEP][PASSED] - break: null
+
+2024-02-12 09:14:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_color")): Object: 'Object Repository/Shopping/btn_color' is clicked on
+
+2024-02-12 09:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_color' is clicked on
+
+2024-02-12 09:14:21 - [TEST_STEP][PASSED] - color = color: null
+
+2024-02-12 09:14:21 - [TEST_STEP][PASSED] - switch (color): null
+
+2024-02-12 09:14:21 - [TEST_STEP][PASSED] - case color = "Blue":: null
+
+2024-02-12 09:14:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_color_blue"), 10): Object 'Object Repository/Shopping/btn_color_blue' is visible
+
+2024-02-12 09:14:21 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_color_blue' is visible
+
+2024-02-12 09:14:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_color_blue")): Object: 'Object Repository/Shopping/btn_color_blue' is clicked on
+
+2024-02-12 09:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_color_blue' is clicked on
+
+2024-02-12 09:14:22 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test" time="28.825" classname="Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test" status="PASSED">
+         <system-out><![CDATA[2024-02-12 09:14:22 - [TEST_CASE][PASSED] - Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test: Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test
+
+2024-02-12 09:14:22 - [TEST_STEP][PASSED] - website.Browser.openBrowser(website_url): website.Browser.openBrowser is PASSED
+
+2024-02-12 09:14:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-02-12 09:14:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-12 09:14:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-12 09:14:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-12 09:14:23 - [MESSAGE][PASSED] - Current window maximized
+
+2024-02-12 09:14:27 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+2024-02-12 09:14:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-12 09:14:32 - [MESSAGE][PASSED] - website.Browser.openBrowser is PASSED
+
+2024-02-12 09:14:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/btn_account"), 10): Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:14:33 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:14:33 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-02-12 09:14:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-02-12 09:14:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/img_item_speaker"), 10): Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:14:43 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:14:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/img_item_speaker")): Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:14:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_manufacturer"), 10): Object 'Object Repository/Shopping/btn_manufacturer' is visible
+
+2024-02-12 09:14:48 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_manufacturer' is visible
+
+2024-02-12 09:14:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_manufacturer")): Object: 'Object Repository/Shopping/btn_manufacturer' is clicked on
+
+2024-02-12 09:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_manufacturer' is clicked on
+
+2024-02-12 09:14:48 - [TEST_STEP][PASSED] - manufacturer = manufacturer: null
+
+2024-02-12 09:14:48 - [TEST_STEP][PASSED] - switch (manufacturer): null
+
+2024-02-12 09:14:48 - [TEST_STEP][PASSED] - case manufacturer = "Bose":: null
+
+2024-02-12 09:14:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/checkbox_bose"), 10): Object 'Object Repository/Shopping/checkbox_bose' is visible
+
+2024-02-12 09:14:49 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/checkbox_bose' is visible
+
+2024-02-12 09:14:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/checkbox_bose")): Object: 'Object Repository/Shopping/checkbox_bose' is clicked on
+
+2024-02-12 09:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/checkbox_bose' is clicked on
+
+2024-02-12 09:14:49 - [TEST_STEP][PASSED] - break: null
+
+2024-02-12 09:14:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_color")): Object: 'Object Repository/Shopping/btn_color' is clicked on
+
+2024-02-12 09:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_color' is clicked on
+
+2024-02-12 09:14:50 - [TEST_STEP][PASSED] - color = color: null
+
+2024-02-12 09:14:50 - [TEST_STEP][PASSED] - switch (color): null
+
+2024-02-12 09:14:50 - [TEST_STEP][PASSED] - case color = "Red":: null
+
+2024-02-12 09:14:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_color_red"), 10): Object 'Object Repository/Shopping/btn_color_red' is visible
+
+2024-02-12 09:14:50 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_color_red' is visible
+
+2024-02-12 09:14:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_color_red")): Object: 'Object Repository/Shopping/btn_color_red' is clicked on
+
+2024-02-12 09:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_color_red' is clicked on
+
+2024-02-12 09:14:51 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test" time="36.303" classname="Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test" status="PASSED">
+         <system-out><![CDATA[2024-02-12 09:14:51 - [TEST_CASE][PASSED] - Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test: Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test
+
+2024-02-12 09:14:51 - [TEST_STEP][PASSED] - website.Browser.openBrowser(website_url): website.Browser.openBrowser is PASSED
+
+2024-02-12 09:14:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-02-12 09:14:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-12 09:14:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-12 09:14:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-12 09:14:52 - [MESSAGE][PASSED] - Current window maximized
+
+2024-02-12 09:15:02 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+2024-02-12 09:15:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-12 09:15:07 - [MESSAGE][PASSED] - website.Browser.openBrowser is PASSED
+
+2024-02-12 09:15:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/btn_account"), 10): Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:15:07 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:15:07 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-02-12 09:15:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-02-12 09:15:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/img_item_speaker"), 10): Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:15:18 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:15:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/img_item_speaker")): Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:15:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_manufacturer"), 10): Object 'Object Repository/Shopping/btn_manufacturer' is visible
+
+2024-02-12 09:15:24 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_manufacturer' is visible
+
+2024-02-12 09:15:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_manufacturer")): Object: 'Object Repository/Shopping/btn_manufacturer' is clicked on
+
+2024-02-12 09:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_manufacturer' is clicked on
+
+2024-02-12 09:15:25 - [TEST_STEP][PASSED] - manufacturer = manufacturer: null
+
+2024-02-12 09:15:25 - [TEST_STEP][PASSED] - switch (manufacturer): null
+
+2024-02-12 09:15:25 - [TEST_STEP][PASSED] - case manufacturer = "Bose":: null
+
+2024-02-12 09:15:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/checkbox_bose"), 10): Object 'Object Repository/Shopping/checkbox_bose' is visible
+
+2024-02-12 09:15:25 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/checkbox_bose' is visible
+
+2024-02-12 09:15:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/checkbox_bose")): Object: 'Object Repository/Shopping/checkbox_bose' is clicked on
+
+2024-02-12 09:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/checkbox_bose' is clicked on
+
+2024-02-12 09:15:25 - [TEST_STEP][PASSED] - break: null
+
+2024-02-12 09:15:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_color")): Object: 'Object Repository/Shopping/btn_color' is clicked on
+
+2024-02-12 09:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_color' is clicked on
+
+2024-02-12 09:15:26 - [TEST_STEP][PASSED] - color = color: null
+
+2024-02-12 09:15:26 - [TEST_STEP][PASSED] - switch (color): null
+
+2024-02-12 09:15:26 - [TEST_STEP][PASSED] - case color = "White":: null
+
+2024-02-12 09:15:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_color_white"), 10): Object 'Object Repository/Shopping/btn_color_white' is visible
+
+2024-02-12 09:15:27 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_color_white' is visible
+
+2024-02-12 09:15:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_color_white")): Object: 'Object Repository/Shopping/btn_color_white' is clicked on
+
+2024-02-12 09:15:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_color_white' is clicked on
+
+2024-02-12 09:15:27 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test" time="27.439" classname="Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test" status="PASSED">
+         <system-out><![CDATA[2024-02-12 09:15:27 - [TEST_CASE][PASSED] - Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test: Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test
+
+2024-02-12 09:15:27 - [TEST_STEP][PASSED] - website.Browser.openBrowser(website_url): website.Browser.openBrowser is PASSED
+
+2024-02-12 09:15:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-02-12 09:15:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-12 09:15:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-12 09:15:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-12 09:15:29 - [MESSAGE][PASSED] - Current window maximized
+
+2024-02-12 09:15:32 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+2024-02-12 09:15:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-12 09:15:37 - [MESSAGE][PASSED] - website.Browser.openBrowser is PASSED
+
+2024-02-12 09:15:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/btn_account"), 10): Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:15:38 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:15:38 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-02-12 09:15:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-02-12 09:15:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/img_item_speaker"), 10): Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:15:48 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:15:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/img_item_speaker")): Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:15:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_manufacturer"), 10): Object 'Object Repository/Shopping/btn_manufacturer' is visible
+
+2024-02-12 09:15:52 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_manufacturer' is visible
+
+2024-02-12 09:15:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_manufacturer")): Object: 'Object Repository/Shopping/btn_manufacturer' is clicked on
+
+2024-02-12 09:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_manufacturer' is clicked on
+
+2024-02-12 09:15:52 - [TEST_STEP][PASSED] - manufacturer = manufacturer: null
+
+2024-02-12 09:15:52 - [TEST_STEP][PASSED] - switch (manufacturer): null
+
+2024-02-12 09:15:52 - [TEST_STEP][PASSED] - case manufacturer = "HP":: null
+
+2024-02-12 09:15:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/checkbox_hp"), 10): Object 'Object Repository/Shopping/checkbox_hp' is visible
+
+2024-02-12 09:15:52 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/checkbox_hp' is visible
+
+2024-02-12 09:15:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/checkbox_hp")): Object: 'Object Repository/Shopping/checkbox_hp' is clicked on
+
+2024-02-12 09:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/checkbox_hp' is clicked on
+
+2024-02-12 09:15:53 - [TEST_STEP][PASSED] - break: null
+
+2024-02-12 09:15:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_color")): Object: 'Object Repository/Shopping/btn_color' is clicked on
+
+2024-02-12 09:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_color' is clicked on
+
+2024-02-12 09:15:53 - [TEST_STEP][PASSED] - color = color: null
+
+2024-02-12 09:15:53 - [TEST_STEP][PASSED] - switch (color): null
+
+2024-02-12 09:15:53 - [TEST_STEP][PASSED] - case color = "Black":: null
+
+2024-02-12 09:15:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_color_black"), 10): Object 'Object Repository/Shopping/btn_color_black' is visible
+
+2024-02-12 09:15:54 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_color_black' is visible
+
+2024-02-12 09:15:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_color_black")): Object: 'Object Repository/Shopping/btn_color_black' is clicked on
+
+2024-02-12 09:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_color_black' is clicked on
+
+2024-02-12 09:15:55 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test" time="33.922" classname="Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test" status="PASSED">
+         <system-out><![CDATA[2024-02-12 09:15:55 - [TEST_CASE][PASSED] - Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test: Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test
+
+2024-02-12 09:15:55 - [TEST_STEP][PASSED] - website.Browser.openBrowser(website_url): website.Browser.openBrowser is PASSED
+
+2024-02-12 09:15:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-02-12 09:15:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-12 09:15:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-12 09:15:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-12 09:15:56 - [MESSAGE][PASSED] - Current window maximized
+
+2024-02-12 09:15:57 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+2024-02-12 09:16:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-12 09:16:02 - [MESSAGE][PASSED] - website.Browser.openBrowser is PASSED
+
+2024-02-12 09:16:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/btn_account"), 10): Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:16:03 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:16:03 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-02-12 09:16:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-02-12 09:16:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/img_item_speaker"), 10): Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:16:13 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:16:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/img_item_speaker")): Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:16:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:16:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_manufacturer"), 10): Object 'Object Repository/Shopping/btn_manufacturer' is visible
+
+2024-02-12 09:16:26 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_manufacturer' is visible
+
+2024-02-12 09:16:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_manufacturer")): Object: 'Object Repository/Shopping/btn_manufacturer' is clicked on
+
+2024-02-12 09:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_manufacturer' is clicked on
+
+2024-02-12 09:16:26 - [TEST_STEP][PASSED] - manufacturer = manufacturer: null
+
+2024-02-12 09:16:26 - [TEST_STEP][PASSED] - switch (manufacturer): null
+
+2024-02-12 09:16:26 - [TEST_STEP][PASSED] - case manufacturer = "HP":: null
+
+2024-02-12 09:16:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/checkbox_hp"), 10): Object 'Object Repository/Shopping/checkbox_hp' is visible
+
+2024-02-12 09:16:26 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/checkbox_hp' is visible
+
+2024-02-12 09:16:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/checkbox_hp")): Object: 'Object Repository/Shopping/checkbox_hp' is clicked on
+
+2024-02-12 09:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/checkbox_hp' is clicked on
+
+2024-02-12 09:16:27 - [TEST_STEP][PASSED] - break: null
+
+2024-02-12 09:16:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_color")): Object: 'Object Repository/Shopping/btn_color' is clicked on
+
+2024-02-12 09:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_color' is clicked on
+
+2024-02-12 09:16:27 - [TEST_STEP][PASSED] - color = color: null
+
+2024-02-12 09:16:27 - [TEST_STEP][PASSED] - switch (color): null
+
+2024-02-12 09:16:27 - [TEST_STEP][PASSED] - case color = "Blue":: null
+
+2024-02-12 09:16:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_color_blue"), 10): Object 'Object Repository/Shopping/btn_color_blue' is visible
+
+2024-02-12 09:16:28 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_color_blue' is visible
+
+2024-02-12 09:16:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_color_blue")): Object: 'Object Repository/Shopping/btn_color_blue' is clicked on
+
+2024-02-12 09:16:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_color_blue' is clicked on
+
+2024-02-12 09:16:29 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test" time="26.964" classname="Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test" status="PASSED">
+         <system-out><![CDATA[2024-02-12 09:16:29 - [TEST_CASE][PASSED] - Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test: Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test
+
+2024-02-12 09:16:29 - [TEST_STEP][PASSED] - website.Browser.openBrowser(website_url): website.Browser.openBrowser is PASSED
+
+2024-02-12 09:16:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-02-12 09:16:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-12 09:16:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-12 09:16:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-12 09:16:30 - [MESSAGE][PASSED] - Current window maximized
+
+2024-02-12 09:16:34 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+2024-02-12 09:16:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-12 09:16:39 - [MESSAGE][PASSED] - website.Browser.openBrowser is PASSED
+
+2024-02-12 09:16:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/btn_account"), 10): Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:16:39 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:16:39 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-02-12 09:16:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-02-12 09:16:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/img_item_speaker"), 10): Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:16:49 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:16:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/img_item_speaker")): Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:16:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_manufacturer"), 10): Object 'Object Repository/Shopping/btn_manufacturer' is visible
+
+2024-02-12 09:16:52 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_manufacturer' is visible
+
+2024-02-12 09:16:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_manufacturer")): Object: 'Object Repository/Shopping/btn_manufacturer' is clicked on
+
+2024-02-12 09:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_manufacturer' is clicked on
+
+2024-02-12 09:16:53 - [TEST_STEP][PASSED] - manufacturer = manufacturer: null
+
+2024-02-12 09:16:53 - [TEST_STEP][PASSED] - switch (manufacturer): null
+
+2024-02-12 09:16:53 - [TEST_STEP][PASSED] - case manufacturer = "Logitech":: null
+
+2024-02-12 09:16:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/checkbox_logitech"), 10): Object 'Object Repository/Shopping/checkbox_logitech' is visible
+
+2024-02-12 09:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/checkbox_logitech' is visible
+
+2024-02-12 09:16:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/checkbox_logitech")): Object: 'Object Repository/Shopping/checkbox_logitech' is clicked on
+
+2024-02-12 09:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/checkbox_logitech' is clicked on
+
+2024-02-12 09:16:54 - [TEST_STEP][PASSED] - break: null
+
+2024-02-12 09:16:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_color")): Object: 'Object Repository/Shopping/btn_color' is clicked on
+
+2024-02-12 09:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_color' is clicked on
+
+2024-02-12 09:16:54 - [TEST_STEP][PASSED] - color = color: null
+
+2024-02-12 09:16:54 - [TEST_STEP][PASSED] - switch (color): null
+
+2024-02-12 09:16:54 - [TEST_STEP][PASSED] - case color = "Red":: null
+
+2024-02-12 09:16:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_color_red"), 10): Object 'Object Repository/Shopping/btn_color_red' is visible
+
+2024-02-12 09:16:55 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_color_red' is visible
+
+2024-02-12 09:16:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_color_red")): Object: 'Object Repository/Shopping/btn_color_red' is clicked on
+
+2024-02-12 09:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_color_red' is clicked on
+
+2024-02-12 09:16:56 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test" time="27.174" classname="Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test" status="PASSED">
+         <system-out><![CDATA[2024-02-12 09:16:56 - [TEST_CASE][PASSED] - Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test: Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test
+
+2024-02-12 09:16:56 - [TEST_STEP][PASSED] - website.Browser.openBrowser(website_url): website.Browser.openBrowser is PASSED
+
+2024-02-12 09:16:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-02-12 09:16:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-12 09:16:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-12 09:16:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-12 09:16:57 - [MESSAGE][PASSED] - Current window maximized
+
+2024-02-12 09:17:00 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+2024-02-12 09:17:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-12 09:17:05 - [MESSAGE][PASSED] - website.Browser.openBrowser is PASSED
+
+2024-02-12 09:17:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/User Management Objects/btn_account"), 10): Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:17:06 - [MESSAGE][PASSED] - Object 'Object Repository/User Management Objects/btn_account' is visible
+
+2024-02-12 09:17:06 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-02-12 09:17:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-02-12 09:17:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/img_item_speaker"), 10): Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:17:16 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/img_item_speaker' is visible
+
+2024-02-12 09:17:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/img_item_speaker")): Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:17:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/img_item_speaker' is clicked on
+
+2024-02-12 09:17:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_manufacturer"), 10): Object 'Object Repository/Shopping/btn_manufacturer' is visible
+
+2024-02-12 09:17:20 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_manufacturer' is visible
+
+2024-02-12 09:17:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_manufacturer")): Object: 'Object Repository/Shopping/btn_manufacturer' is clicked on
+
+2024-02-12 09:17:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_manufacturer' is clicked on
+
+2024-02-12 09:17:20 - [TEST_STEP][PASSED] - manufacturer = manufacturer: null
+
+2024-02-12 09:17:20 - [TEST_STEP][PASSED] - switch (manufacturer): null
+
+2024-02-12 09:17:20 - [TEST_STEP][PASSED] - case manufacturer = "Logitech":: null
+
+2024-02-12 09:17:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/checkbox_logitech"), 10): Object 'Object Repository/Shopping/checkbox_logitech' is visible
+
+2024-02-12 09:17:21 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/checkbox_logitech' is visible
+
+2024-02-12 09:17:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/checkbox_logitech")): Object: 'Object Repository/Shopping/checkbox_logitech' is clicked on
+
+2024-02-12 09:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/checkbox_logitech' is clicked on
+
+2024-02-12 09:17:21 - [TEST_STEP][PASSED] - break: null
+
+2024-02-12 09:17:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_color")): Object: 'Object Repository/Shopping/btn_color' is clicked on
+
+2024-02-12 09:17:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_color' is clicked on
+
+2024-02-12 09:17:22 - [TEST_STEP][PASSED] - color = color: null
+
+2024-02-12 09:17:22 - [TEST_STEP][PASSED] - switch (color): null
+
+2024-02-12 09:17:22 - [TEST_STEP][PASSED] - case color = "White":: null
+
+2024-02-12 09:17:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Shopping/btn_color_white"), 10): Object 'Object Repository/Shopping/btn_color_white' is visible
+
+2024-02-12 09:17:22 - [MESSAGE][PASSED] - Object 'Object Repository/Shopping/btn_color_white' is visible
+
+2024-02-12 09:17:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Shopping/btn_color_white")): Object: 'Object Repository/Shopping/btn_color_white' is clicked on
+
+2024-02-12 09:17:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping/btn_color_white' is clicked on
+
+2024-02-12 09:17:23 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-12 09:11:59 - [TEST_SUITE][PASSED] - Shopping: Test Cases/Final Project - Website/Positive Test/Shopping/filter_search_test]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
