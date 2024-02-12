@@ -57,9 +57,12 @@ WebUI.check(findTestObject('Object Repository/User Management Objects/checkbox_a
 
 WebUI.click(findTestObject('Object Repository/User Management Objects/btn_register'))
 
+WebUI.delay(5)
+
 String displayedUsername = WebUI.getText(findTestObject('Object Repository/User Management Objects/span_user_name'))
-println("Username = "+ displayedUsername)
-println("Variable Username = " + username)
+println(displayedUsername)
+println(username)
+
 assert displayedUsername.equalsIgnoreCase(username) : 'Username false!'
 
 WebUI.closeBrowser()
